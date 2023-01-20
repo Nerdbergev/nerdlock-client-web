@@ -56,7 +56,7 @@ class LockControl extends Component {
           }
           {
             this.state.loading &&
-            <span>
+            <span id='action-indicator'>
               Doing Stuff...
             </span>
           }
